@@ -30,7 +30,7 @@
                     <ul class="navbar-nav d-flex justify-content-between w-100">
                         <li class="nav-item fs-4"><a href="ex1.php" class="nav-link">Ex1</a></li>
                         <li class="nav-item fs-4"><a href="ex2.php" class="nav-link">Ex2</a></li>
-                        <li class="nav-item fs-4"><a href="home.php" class="nav-link">Ex3</a></li>
+                        <li class="nav-item fs-4"><a href="ex3.php" class="nav-link">Ex3</a></li>
                         <li class="nav-item fs-4"><a href="home.php" class="nav-link">Ex4</a></li>
                         
 

@@ -6,7 +6,15 @@
                 <p>Sunday Closed</p>
             </div>
             <div class="col-12 col-lg-4">
-                <h3>LOCATION</h3>
+                <h3>Last Modification Time</h3>
+                <?php
+                    $currentFile = basename($_SERVER['PHP_SELF']);
+                    if (file_exists($currentFile)) {
+                        echo "'$currentFile' was last modified on: " . date ("F d Y H:i:s.", filemtime($currentFile));
+                    } else {    
+                        echo "'$currentFile' was last modified on: "  . date ("F d Y H:i:s.", getlastmod());
+                    }
+                ?>
                 <p>Linnankatu 9</p>
                 <p>13100</p>
                 <p>Helsinki</p>
