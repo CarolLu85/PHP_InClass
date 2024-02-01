@@ -106,9 +106,10 @@ include 'header.php'; ?>
                     $formValue = $_POST["form"];
                     if ($formValue == "printingForm") {
                         $name = $_POST["number"]; 
-                        while ($name > 0){
-                            echo $name . " ";
-                            $name--;
+                        $i = 1;
+                        while ($i <= $name ){
+                            echo $i. " ";
+                            $i++;
                         }
                     }
                 }
