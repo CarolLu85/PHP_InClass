@@ -1,5 +1,5 @@
 <?php
-$title = "TASK 3"; 
+$title = "Ex3:Variable, Strings & Operators"; 
 include 'header.php'; ?>
 <main>
     <div class="task_3">

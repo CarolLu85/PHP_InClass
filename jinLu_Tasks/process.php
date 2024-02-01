@@ -10,8 +10,6 @@ include 'header.php'; ?>
             $email = $_POST["email"];
             echo "<h3>Hello $name, You are welcome to my site." . "<br>" . "Your email is $email</h3>";
         }
-
-
     ?>
 </main>            
 

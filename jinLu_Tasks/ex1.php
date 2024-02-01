@@ -1,5 +1,5 @@
 <?php 
- $title = "Ex1";
+ $title = "Ex1: Getting started with PHP";
 include('header.php'); ?>
 <main>
     <h3>3.1 Write PHP code to output the following message: 
