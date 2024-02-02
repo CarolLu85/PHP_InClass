@@ -69,7 +69,7 @@ include 'header.php'; ?>
                     <input type="text" class="form-control" name="nimi" id="name" aria-describedby="nameHelp" placeholder="Please enter your name" required>
                 </div>
                 <div class="mb-3">
-                    <label for="email" class="form-label fs-5">Number of Guests</label>
+                    <label for="email" class="form-label fs-5">Email</label>
                     <input type="email" class="form-control" name="email" id="email" placeholder="carol@gamil.com" required>
                 </div>
                 <div class = "d-grid">
