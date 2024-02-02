@@ -30,6 +30,38 @@ include 'header.php'; ?>
         strcounter();
     ?>
     </div>
+    <?php
+        $g1 = 15;
+        $g2 = 24;
+        $g3 = 35;
+    
+    ?>
+    <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>John</td>
+            <td><?php echo $g1 ?></td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Alice</td>
+            <td><?php echo $g2 ?></td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Bob</td>
+            <td><?php echo $g3 ?></td>
+            </tr>
+        </tbody>
+    </table>
     <form class = "col-lg-6 bookform custom-padding" method="post" action="process.php">
                 <h3>Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an h3 tag.</h3>
                 <div>
