@@ -64,19 +64,6 @@ include 'header.php'; ?>
                 }
             ?>
         </div> 
-        <!-- <div class="monthForm">
-            <form name="monthForm" class = "col-lg-6 bookform custom-padding" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
-                    <input type="hidden" name="form" value="monthForm">    
-                    <div class="mb-3">
-                        <label for="number"  class="form-label fs-5">Current Month</label>
-                        <input type="text" class="form-control" name="number" placeholder="Please enter a number.eg: Feburary, you enter 2" required>
-                    </div>
-                    <div class = "d-grid">
-                            <button type="submit" class="btn btn-primary d-grid" value="submit">Submit</button>
-                    </div> 
-                </form>  
-        </div>    
-        <div class="monthForm"> -->
             <?php
                 $currentMonth = date("n");
                 switch ($currentMonth){
