@@ -34,7 +34,7 @@
                         <li class="nav-item fs-4"><a href="ex4.php" class="nav-link">Ex4</a></li>
                         <li class="nav-item fs-4"><a href="home.php" class="nav-link">Ex5</a></li>
                         <li class="nav-item fs-4"><a href="home.php" class="nav-link">Ex6</a></li>
-                        <li class="nav-item fs-4"><a href="home.php" class="nav-link">Ex7</a></li>
+                        <li class="nav-item fs-4"><a href="ex7.php" class="nav-link">Ex7</a></li>
                     </ul>
                 </nav>
             </div>
